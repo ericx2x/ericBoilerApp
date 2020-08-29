@@ -1,0 +1,36 @@
+{
+  "name": "itsasmileworldqueue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.16.1",
+    "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "express": "^4.17.1",
+    "express-mysql-session": "^1.3.0",
+    "express-session": "^1.15.6",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.18",
+    "jade": "~1.11.0",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0"
+  }
+}
